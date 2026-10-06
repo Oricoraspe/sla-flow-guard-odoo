@@ -1,0 +1,28 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+
+# Python / Odoo
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+filestore/
+sessions/
+
+# Node (si se usa para herramientas del frontend de Odoo)
+node_modules/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.bak
+*~
